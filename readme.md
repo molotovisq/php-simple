@@ -2,6 +2,29 @@
 
 This repository contains the following PHP scripts: `simple_calculator.php`, `prime_numbers.php`, `factorial.php`, `palindrome.php` , `table.php` , `vowels.php`, `grade_average.php`, , `investment_return.php`.
 
+
+
+## Installation (Debian)
+
+1. Clone the repository:
+`git clone https://github.com/your-username/your-repository.git`
+
+2. Navigate to the project directory:
+`cd your-repository`
+
+3. Install dependencies using [Composer](https://getcomposer.org/) :
+`composer install`
+
+
+
+
+## Running Tests
+
+To run the PHPUnit tests, use the following command:
+
+`./vendor/bin/phpunit --testdox Tests.php`
+## Documentation
+
 ## simple_calculator.php
 
 This script is a simple calculator that takes in three inputs from the user: two numbers and an operator. The script then performs the specified operation on the two numbers and outputs the result.
