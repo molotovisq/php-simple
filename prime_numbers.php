@@ -25,9 +25,3 @@ function find_n_primes($n) {
     return $primes;
 }
 
-$first_ten_primes = find_n_primes(10);
-
-foreach ($first_ten_primes as $prime) {
-    echo $prime . " ";
-}
-echo "\n";

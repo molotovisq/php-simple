@@ -5,9 +5,4 @@ function mult_table($number) {
         echo "$number x $i = $result\n";
     }
 }
-
-echo "Enter a number: ";
-$num = (int) fgets(STDIN);
-
-mult_table($num);
 ?>

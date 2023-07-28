@@ -20,11 +20,3 @@ function calc($first, $operator, $second)
     }
 }
 
-echo "First number: ";
-$n1 = (float)fgets(STDIN);
-echo "Operator: ";
-$op = trim(fgets(STDIN));
-echo "Second number: ";
-$n2 = (float)fgets(STDIN);
-
-echo "Result: " . calc($n1, $op, $n2) . "\n";

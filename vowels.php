@@ -1,4 +1,5 @@
 <?php
+
 function count_vowels($string) {
     $string = strtolower($string);
     $vowels = array('a', 'e', 'i', 'o', 'u');
@@ -13,9 +14,4 @@ function count_vowels($string) {
     return $count;
 }
 
-echo "Enter a phrase: ";
-$sentence = trim(fgets(STDIN));
-
-$vowel_count = count_vowels($sentence);
-echo "Has " . $vowel_count . " vowel(s).\n";
 ?>
